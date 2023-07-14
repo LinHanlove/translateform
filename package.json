@@ -1,0 +1,31 @@
+{
+  "name": "translateing",
+  "version": "1.1.4",
+  "description": "Chinese English translation plugin",
+  "main": "index.ts",
+  "bin": "index.ts",
+  "scripts": {
+    "start": "npm link",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinHanlove/translateform.git"
+  },
+  "keywords": [
+    "文件夹中英翻译插件"
+  ],
+  "author": "LinHanLove",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "commander": "^10.0.1",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.1",
+    "urlencode": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/LinHanlove/translateform/issues"
+  },
+  "homepage": "https://github.com/LinHanlove/translateform#readme"
+}
